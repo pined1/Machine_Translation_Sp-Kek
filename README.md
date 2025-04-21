@@ -60,6 +60,9 @@ The experiments demonstrate substantial improvements in translation quality thro
 
 ---
 
+## Link to video Loom:
+[Loom Video](https://www.loom.com/share/2f3516256307415ba195325f26a82555?sid=8c258945-20f2-42c8-bc9d-c6c80bc29788)
+
 ## ✨ Acknowledgements
 
 Special thanks to the BYU Machine Translation Lab for providing the Spanish–Kekchi dataset.
