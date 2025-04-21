@@ -1,10 +1,10 @@
-# 📖 Spanish–Kekchi Machine Translation Enhancement
+# Spanish–Kekchi Machine Translation Enhancement
 
 This repository contains all code, notebooks, models, and documentation for **David Pineda’s final project** in Machine Translation. The work explores methods to improve **low-resource translation** using linguistically motivated gloss pretraining and hybrid random embeddings.
 
 ---
 
-## 🧩 Project Overview
+## Project Overview
 
 - **Languages:** Spanish → Kekchi
 - **Corpus:** 164,903 sentence pairs from LDS religious text domain
@@ -17,7 +17,7 @@ This repository contains all code, notebooks, models, and documentation for **Da
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 | File / Folder | Description |
 |---------------|-------------|
@@ -36,7 +36,7 @@ This repository contains all code, notebooks, models, and documentation for **Da
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ### 1. Baseline Fine-Tuning
 Fine-tune the mBART-50 multilingual model on aligned sentence pairs.
@@ -61,7 +61,7 @@ Replace rare word embeddings (based on frequency threshold) with random Gaussian
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Model | BLEU | ChrF++ | ROUGE-L | Exact Match (%) | COMET |
 |-------|------|--------|---------|------------------|--------|
@@ -72,7 +72,7 @@ Replace rare word embeddings (based on frequency threshold) with random Gaussian
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 ```bash
 pip install transformers sentencepiece torch sacrebleu pandas scikit-learn
@@ -80,18 +80,13 @@ pip install transformers sentencepiece torch sacrebleu pandas scikit-learn
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 You can run any `.ipynb` notebook directly, or use the `.py` script versions like this:
 
 ```bash
 python ibm_&_hybrid_embedding_0_9.py
 ```
-
-Make sure the training/validation/test data is in a folder named `data/` with files like:
-- `train.csv`
-- `val.csv`
-- `test.csv`
 
 ---
 
@@ -102,7 +97,7 @@ Make sure the training/validation/test data is in a folder named `data/` with fi
 
 ---
 
-## 🔁 Revisions Based on Feedback
+## Revisions Based on Feedback
 
 - **Presentation:** Added slide examples of gloss triples with Kekchi equivalents (`in`, `k’ut`, `wa’`)
 - **Paper:** Emphasized threshold impact (0.9 > 0.7), clarified hybrid method
@@ -110,7 +105,7 @@ Make sure the training/validation/test data is in a folder named `data/` with fi
 
 ---
 
-## ⏱️ Hours Log
+## Hours Log
 
 | Task                        | Hours |
 |-----------------------------|-------|
@@ -123,15 +118,17 @@ Make sure the training/validation/test data is in a folder named `data/` with fi
 
 ---
 
-## 📚 References
+## References
 
-- Tokarchuk, E., & Niculae, V. (2024). *The Unreasonable Effectiveness of Random Target Embeddings...*
-- NLLB Team (2022). *No Language Left Behind.*
-- Liu et al. (2020). *Multilingual Denoising Pretraining...*
+
+1) Zhou, Zhong; Levin, Lori; Mortensen, David R.; Waibel, Alex. *Using Interlinear Glosses as Pivot in Low-Resource Multilingual Machine Translation.* EMNLP 2020.  [Paper](https://aclanthology.org/2020.emnlp-main.304)
+
+2) Tokarchuk, Evgeniia; Niculae, Vlad. *The Unreasonable Effectiveness of Random Target Embeddings for Continuous-Output Neural Machine Translation.* NAACL 2024.  
+[Paper](https://aclanthology.org/2024.naacl-short.56)
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Special thanks to the BYU Machine Translation Lab for providing the Spanish–Kekchi dataset and guidance.
 
