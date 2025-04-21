@@ -55,8 +55,6 @@ The experiments demonstrate substantial improvements in translation quality thro
 
 ## 📚 References
 
-- McCarthy, Arya D., Mielke, Sabrina J., & Yarowsky, David (2020). *Using Interlinear Glosses as Pivot in Low-Resource Multilingual Machine Translation*. EMNLP 2020. [Link](https://aclanthology.org/2020.emnlp-main.304)
-- Zhang, Xuan & Duh, Kevin (2023). *Improving Sign Language Gloss Translation with Low-Resource Machine Translation Techniques*. Springer. [Link](https://doi.org/10.1007/978-3-031-14280-4_2)
 
 ---
 
