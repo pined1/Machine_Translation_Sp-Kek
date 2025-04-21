@@ -111,9 +111,9 @@ python ibm_&_hybrid_embedding_0_9.py
 
 ---
 
-## 📹 Demo Video
+## Demo Video
 
-🎥 Loom walkthrough of the project:  
+Loom walkthrough of the project:  
 [https://www.loom.com/share/2f3516256307415ba195325f26a82555?sid=8c258945-20f2-42c8-bc9d-c6c80bc29788](https://www.loom.com/share/2f3516256307415ba195325f26a82555?sid=8c258945-20f2-42c8-bc9d-c6c80bc29788)
 
 ---
