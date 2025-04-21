@@ -10,6 +10,20 @@ You can find the full write-up of the project in the PDF below:
 
 [Paper](./Enhancing_Low_Resource_Machine_Translation_via_Inter_linear_Text_Pretraining_and_Hybrid_Random_Embeddings.pdf)
 
+## Final Presentation Slides
+
+You can view the final version of the slide deck used in the presentation here:
+
+📑 [David Pineda MT Final Presentation - Revisions](./David%20Pineda%20MT%20Final%20Presentation%20-%20revisions.pptx)
+
+This slide deck includes:
+- An improved explanation of gloss-based pretraining  
+- Visual illustrations of IBM Model 2 alignments  
+- Embedding space plots for hybrid vs. pretrained/random tokens  
+- Direct comparison with Google Translate outputs  
+- Clarified project goal and structure
+
+
 
 ## Project Overview
 
