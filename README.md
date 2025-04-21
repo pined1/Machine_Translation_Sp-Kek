@@ -121,7 +121,7 @@ python ibm_&_hybrid_embedding_0_9.py
 ## References
 
 
-1) Zhou, Zhong; Levin, Lori; Mortensen, David R.; Waibel, Alex. *Using Interlinear Glosses as Pivot in Low-Resource Multilingual Machine Translation.* EMNLP 2020.  [Paper](https://aclanthology.org/2020.emnlp-main.304)
+1) Zhou, Zhong; Levin, Lori; Mortensen, David R.; Waibel, Alex. *Using Interlinear Glosses as Pivot in Low-Resource Multilingual Machine Translation.* EMNLP 2020.  [Paper](https://arxiv.org/abs/1911.02709)
 
 2) Tokarchuk, Evgeniia; Niculae, Vlad. *The Unreasonable Effectiveness of Random Target Embeddings for Continuous-Output Neural Machine Translation.* NAACL 2024.  
 [Paper](https://aclanthology.org/2024.naacl-short.56)
