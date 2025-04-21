@@ -4,6 +4,13 @@ This repository contains all code, notebooks, models, and documentation for **Da
 
 ---
 
+## Final Paper
+
+You can find the full write-up of the project in the PDF below:
+
+[Paper](./Enhancing_Low_Resource_Machine_Translation_via_Inter_linear_Text_Pretraining_and_Hybrid_Random_Embeddings.pdf)
+
+
 ## Project Overview
 
 - **Languages:** Spanish → Kekchi
